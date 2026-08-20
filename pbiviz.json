@@ -1,0 +1,26 @@
+{
+  "visual": {
+    "name": "GANTI",
+    "displayName": "GANTI",
+    "guid": "ganti_96e323a36520417aae3131553c2f8edd",
+    "visualClassName": "DataLakeTables",
+    "version": "1.0.0.1",
+    "description": "GANTI \u2014 governed timeline and task-planning visual for dates, progress, and milestones.",
+    "supportUrl": "https://www.skibaanalytics.com/support",
+    "gitHubUrl": "https://github.com/muhumuza684/KIBA-powerbi-visuals"
+  },
+  "apiVersion": "5.3.0",
+  "author": {
+    "name": "Data Lake Visual Family",
+    "email": "hello@datalakevisuals.example"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "stringResources": [
+    "stringResources/en-US/resources.resjson"
+  ]
+}
