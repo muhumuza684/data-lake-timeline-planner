@@ -9,7 +9,7 @@ describe("GANTI standardization", () => {
 
     test("uses the GANTI identity", () => {
         expect(String(pbiviz.visual.name)).toBe("GANTI");
-        expect(String(pbiviz.visual.displayName)).toBe("GANTI");
+        expect(String(pbiviz.visual.displayName)).toBe("Data Lake Timeline Planner");
         expect(renderer).toContain("GANTI");
     });
 
