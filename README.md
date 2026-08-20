@@ -1,21 +1,14 @@
-# GANTI
+# Data Lake Timeline Planner
 
-GANTI — governed timeline and task-planning visual for dates, progress, and milestones.
+Repository slug: data-lake-timeline-planner
+Artifact: data-lake-timeline-planner-pbiviz
 
-## Current platform status
+Power BI visual product: Data Lake Timeline Planner.
 
-This project inherits the sanitized Data Lake Tables platform for packaging, settings persistence, accessibility, diagnostics, export governance, localization, and regression testing.
+Timeline and task-planning visual with hierarchy, progress, milestones, dependencies, today marker, and zoom.
 
-**Implementation focus:** Timeline foundation; visual-specific task-bar and dependency renderer is the next implementation layer.
+This is an independently implemented Data Lake visual. Reference materials informed observable functionality only; proprietary source code, logos, identifiers, and protected branding were not copied.
 
-This is an independent implementation. It does not include proprietary source code, logos, assets, identifiers, or branding from reference visuals.
+## Validation
 
-## Data contract
-
-- `task` — Task (Grouping)
-- `startDate` — Start date (Grouping)
-- `endDate` — End date (Grouping)
-- `percentComplete` — Progress (Measure)
-- `owner` — Owner (Grouping)
-- `milestones` — Milestones (Grouping)
-- `tooltips` — Tooltips (Grouping)
+Run npm ci, npm run test:ci, npx tsc --noEmit -p ., and npx pbiviz package before release. Complete a Power BI Desktop smoke test with representative data before publishing.
